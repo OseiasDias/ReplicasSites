@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+
+.navbar {
+    background-color: #1e4356 !important;
+}
+
+.breadcrumbs {
+    background-color: #f3f8fa;
+    margin-top: 60px;
+}
+
+.breadcrumbs ol {
+    margin-top: 10px;
+
+
+}
+
+.breadcrumbs ol li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.breadcrumbs ol li a {
+    text-decoration: none;
+
+}
+
+.breadcrumbs ol li:nth-child(1)::after {
+    content: "/";
+    color: black;
+    padding-left: 10px;
+}
+
+.lista-odernada {
+    list-style: none;
+    left: -30px;
+    position: relative;
+}
+
+.lista-odernada li {
+    margin: 10px 0;
+}
+
+.lista-odernada li .bi {
+    font-size: 1.3em;
+    color: #68A4C4;
+}
+
+.about h3 {
+    color: #000000ae;
+}
+
+.facts {
+    background-color: #68a4c419;
+    padding: 50px 0;
+}
+
+.colorir {
+    color: #68A4C4 !important;
+    font-size: 3em !important;
+}
+
+.skills {
+    padding: 50px 0;
+}
+
+.titulo::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #68A4C4;
+    bottom: -50px;
+    left: calc(50% - 20px);
+}
+
+.barra-de-progresso .progress {
+    margin: 15px 0;
+    height: 20%;
+}
+
+.barra-de-progresso {
+    margin-bottom: 50px;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.testational {
+    padding: 70px 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: transparent !;
+    border: .8px solid #68A4C4 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    top: 50px !important;
+    position: relative;
+}
+
+.carousel-indicators [data-bs-target]:focus {
+    background-color: #77b9dc !important;
+}
+
+.carousel-item p {
+    font-style: italic !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+
+    display: none;
+}
+
+.card-b {
+    border: none !important;
+    position: relative;
+}
+
+.card-b img {
+    z-index: 1;
+
+}
+
+
+.card-b .card-body {
+    margin: auto !important;
+    width: 90%;
+    border-top: 5px solid #ffff !important;
+    
+    box-shadow: 0 8px 10px #dddddd;
+    bottom: 70px;
+    position: relative;
+    z-index: 5;
+    background-color: #fff !important;
+    padding: 30px 25px !important;
+   
+}
+
+.card-b:hover .card-body {
+
+    border-top: 5px solid #77b9dc !important;
+    
+}
+
+.card-b .card-body h5 {
+    text-align: center;
+}
+
+.card-b .card-body h5 a {
+    text-decoration: none;
+    color: #1e4356;
+}
+
+.card-b .card-body .read-more a {
+    text-transform: uppercase !important;
+    color: #808080 !important;
+    text-decoration: none !important;
+    font-size: .9em !important;
+}
+
+.card-b .services{
+    margin: 50px 0 30px 0;
+}
+.pricing{
+    margin: 50px 0 0 0;
+}
+
+
+.pricing .col-12{
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    text-align: center !important;
+    color: #808080 !important;
+    background-color: #ffff;
+}
+.pricing .col-12 ol{
+    text-align: start !important;
+    list-style: none;
+}
+
+.pricing .col-12 ol li{
+    margin: 12px 0;
+    font-style: normal !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.pricing .col-12 .bi{
+    color: #68A4C4 !important;
+}
+.pricing .col-12 h3{
+    margin: 40px 0 30px 0;
+    color: #000000b1;
+    font-size: 1.6em;
+}
+
+.pricing .col-12 h4{
+    color: #68A4C4 !important;
+    font-size: 2.5em;
+}
+
+.pricing .col-12 .btn{
+    margin: 30px 0;
+    background-color: #1e4356 !important;
+    border-radius: 2em !important;
+    color: #fff !important;
+    padding: 8px 20px !important;
+}
+
+
+.pricing{
+    background-color: hsla(177, 59%, 53%, 0.092) !important;
+    padding: 50px 0;
+}
+.pricing .col-12 .btn:hover{
+    background-color: #68A4C4 !important;
+}
+.pricing .col-12 ol li:nth-child(4),.pricing .col-12 ol li:nth-child(5){
+    text-decoration: line-through;
+}
+
+.pricing  .hhk{
+    z-index: 10;
+}
+@media (max-width:768px) {
+    .breadcrumbs ol {
+        margin-top: 20px;
+
+
+    }
+
+    .breadcrumbs h2 {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.694);
+        font-size: 1.5em;
+
+    }
+
+}

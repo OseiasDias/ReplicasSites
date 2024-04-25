@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+
+.tabulacao {
+
+    position: relative !important;
+
+}
+
+
+.tabulacao ul li {
+
+
+    width: auto;
+}
+
+.tabulacao ul {
+
+    justify-content: center !important;
+    margin: 30px auto !important;
+}
+
+.tabulacao ul a {
+    color: black !important;
+    background-color: transparent;
+
+}
+
+.tabulacao li {
+
+    margin: 0 4px;
+    transition: all ease-in .2s;
+    border: none;
+}
+
+.tabulacao li a:focus {
+    background-color: transparent !important;
+}
+
+.tabulacao li:hover {
+    border-bottom: 2px solid #2282ff;
+    padding-bottom: 0 !important;
+}
+
+.card2 {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.margin {
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.margin:hover .card-texto {
+    opacity: 1;
+}
+
+
+.card2 .card-texto h5 {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.card2 .card-texto {
+    transition: all ease-in .3s;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    opacity: 0;
+}
+
+.card2 .card-texto .icon {
+    color: #ffff;
+    width: 25%;
+    margin: auto !important;
+
+
+}
+
+.team {
+    margin: 50px 0;
+}
+
+.redes-socias {
+    background-color: rgba(0, 0, 0, .4);
+    bottom: 44px;
+    position: relative;
+    padding: 10px 30%;
+    opacity: 0;
+    transition: all ease-in .4s;
+
+}
+
+.team .col-12:hover .redes-socias {
+    opacity: 1;
+
+}
+
+.redes-socias a {
+    color: #ffff;
+}
+
+
+.card-item {
+    top: -30px;
+    position: relative;
+}
+
+.card-item h5 {
+    color: #000000a8;
+}
+
+.card-item small {
+    margin: 8px 0;
+    color: #2282ff;
+}
+
+.card-item p {
+    font-style: italic;
+    color: #000000a8;
+}
+
+
+.blog {
+    margin: 50px 0;
+}
+
+.blog .card {
+    border: none !important;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+}
+
+.blog .card img {
+    max-height: 500px;
+    width: 100%;
+}
+
+.blog .card-body {
+    padding: 10px 20px;
+    color: #000000a8 !important;
+}
+
+.blog .card-body ul {
+    list-style: none;
+    left: -48px;
+    position: relative;
+}
+
+.blog .card-body .bi {
+    color: #2282ff !important;
+}
+
+.blog .card-body .btn {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: #2282ff !important;
+    padding: 8px 20px;
+    color: #ffff !important;
+    float: right !important;
+    margin-bottom: 30px;
+}
+
+.blog .card-body ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.page {
+    margin: auto !important;
+
+}
+
+.formulario1 input {
+    width: 84%;
+    border: none !important;
+    outline: none !important;
+    height: 35px;
+    padding-left: 20px;
+}
+
+.formulario1 button {
+    background-color: #68A4C4 !important;
+    min-width: 14%;
+    border: none !important;
+    outline: none !important;
+    height: 35px;
+    float: right;
+    position: relative;
+    color: #ffff;
+}
+
+
+.maisTitulo {
+
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #000000cd;
+
+}
+
+.div-2 ul{
+    list-style: none !important;
+    left:-30px;
+    position: relative;
+}
+
+.div-2 ul li{
+   margin: 10px 0;
+}
+
+.div-2 ul li a{
+    text-decoration: none;
+    color: #000000d1;
+}
+.div-2 ul li a:hover{
+    color: #2282ff;
+}
+.div-2 ul li span{
+    color: #808080;
+}
+.bi-card{
+    left: -10px;
+    position: relative;
+}
+.bi-card img{
+    width:140px  !important;
+    height: 80px !important;
+    left: -10px; 
+    position: relative;
+}
+
+
+.bi-card{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.sombra{
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    margin: 10px 0 !important;
+    padding: 30px 0;
+}
+.sombra p{
+    margin-bottom: 2px;
+}
+
+.princi{
+   
+    margin-left: 1px !important;
+}
+
+.fig-icon .bi{
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px dotted #2282ff;
+    color: #2282ff;
+    
+}
+
+.fig-icon{
+    margin-bottom: 10px;
+}

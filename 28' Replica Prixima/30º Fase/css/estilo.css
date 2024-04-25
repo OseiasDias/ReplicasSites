@@ -1,0 +1,425 @@
+@charset "UTF-8";
+
+
+/*TRABLHANDO A BARRA DO TOP [LINKS DE REDES SOCIAS]*/
+
+body {
+    font-family: "Barlow", sans-serif;
+    ;
+}
+
+.barra-top {
+    background-color: #ff4d29;
+
+}
+
+.links-extra {
+
+    align-items: center;
+}
+
+.links-extra i {
+    font-size: 1px;
+}
+
+.links-extra p {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1em;
+    display: inline-block !important;
+    margin: 5px;
+    vertical-align: middle;
+
+}
+
+.links-socias i {
+    background-color: #ffffffa0;
+    border-radius: 50%;
+    font-size: 2px;
+    padding: 13px !important;
+    display: inline-block !important;
+    margin: 5px 1px;
+}
+
+.links-socias i:hover {
+    background-color: #ffffff;
+}
+
+.control {
+    position: relative;
+}
+
+
+/*BARRA DE NAVEGACAO PRINCIPAL*/
+.navbar {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
+}
+
+
+.navbar .navbar-brand {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.navbar .dot {
+    color: #ff4d29;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.647) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f7350e !important;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: #ffffff;
+
+}
+
+
+
+
+.btn-brand:hover {
+    color: #ffffff;
+    background-color: #ed2e08;
+}
+
+.btn {
+    padding: 8px 32px !important;
+}
+
+/*PARTES DOS SLIDER*/
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+
+}
+
+.slider1 {
+    background-repeat: no-repeat;
+    background: linear-gradient(#092032a0, #0920326a), url('../img/bg_banner1.jpg');
+}
+
+.slider2 {
+    background-repeat: no-repeat;
+    background: linear-gradient(#092032a0, #0920326a), url('../img/bg_banner2.jpg');
+}
+
+.grossura {
+    font-weight: 600;
+}
+
+.owl-prev,
+.owl-next {
+    font-size: 4em !important;
+    top: 40% !important;
+    position: absolute !important;
+    color: #ffffff31 !important;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    color: #ffffff !important;
+}
+
+.owl-prev {
+    left: 0;
+    position: relative;
+}
+
+.owl-next {
+    right: 0;
+    position: relative;
+}
+
+/*SOBRE*/
+
+
+.intro {
+    padding-top: 80px;
+}
+
+.minhasFiguras {
+    margin-bottom: 20px;
+}
+
+.minhasFiguras h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #000000d0;
+}
+
+.minhasFiguras img {
+    margin: 10px 15px;
+    width: 90px;
+    height: 90px;
+}
+
+.minhasFiguras p {
+    color: #00000082;
+}
+
+/*SERVICOS*/
+
+.figurasServicos {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    ;
+    padding: 20px;
+
+}
+
+.figurasServicos h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.figurasServicos h3,
+img {
+    margin: 20px 0;
+}
+
+.figurasServicos p {
+    color: #00000092;
+}
+
+/*MILLESTONE*/
+
+.millestone .display-4 {
+    font-weight: 700;
+}
+
+.millestone .col-lg-2 {
+    margin: 20px 0;
+}
+
+.millestone {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.millestone h3 {
+    font-size: 1.1em !important;
+}
+
+.hseis {
+    color: #ed2e08;
+}
+
+
+/*PORTEFOLIO*/
+
+.portefolio h1 {
+    font-size: 2em !important;
+    font-weight: 600;
+}
+
+.portefolio h1,
+h6 {
+    margin-left: 60px;
+}
+
+.figura-rolagem {
+    position: relative !important;
+}
+
+.figura-rolagem img{
+    width: 100%;
+   
+}
+
+.figura-rolagem figcaption {
+    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0), rgba(9, 32, 50, .8));
+    top: 75%;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.portefolio h6 {
+    left: 50px;
+    position: relative;
+}
+
+.barra {
+    background-color: #f7350e;
+    width: 40px;
+    height: 2px;
+    top: 87% !important;
+    position: absolute;
+    left: 60px;
+
+}
+
+.owl-dots{
+      position: absolute;
+      top:40% !important;
+      right: 0 !important;
+}
+
+.owl-theme .owl-dots .owl-dot {
+   display: block;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid #ed2e08;
+    padding: 4px !important;
+    background-color: #ed2e08;
+   
+
+}
+
+/*BLOG*/
+.blogFigura{
+    position: relative;
+}
+.blogFigura {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12);
+}
+
+.blogFigura figcaption{
+    padding: 25px;
+}
+
+
+
+.blogFigura figcaption h3{
+    font-size: 1.3em;
+    margin:10px 0;
+    font-weight: 600;
+}
+
+.blogFigura figcaption a{
+   
+    color: #ff4d29;
+}
+
+.blogFigura figcaption a:hover{
+    color:#ed2e08 ;
+}
+.spanWeb{
+    background-color: #ed2e08;
+    color:#ffffff;
+    padding: 6px 16px;
+    top:25px;
+    left: 15px;
+    position: absolute;
+    border-radius: 2em;
+}
+
+.spanWeb:hover{
+    background-color:#ff4d29;
+}
+
+/*EQUIPE*/
+
+.primeira-figura{
+  
+    position: relative;
+    margin: 0 !important;
+}
+.figuraEquipa{
+    position: relative;
+}
+
+.figuraEquipa .links-socias{
+    background: #ed2e0895;
+    top:0;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    transition: all .4s ease;
+    opacity: 0;
+    border-radius: 2em;
+}
+
+.figuraEquipa .links-socias:hover{
+    opacity: 1;
+    height: 100%;
+ 
+}
+.figuraEquipa .links-socias:hover .centro{
+    top:45%;
+    position: relative;
+    transition: all .6s ease;
+}
+.figuraEquipa .centro{
+    top:60%;
+  
+    position: relative;
+
+}
+
+
+.figuraEquipa img{
+    margin: 0;   
+    border-radius: 2em;
+}
+
+.primeira-figura figcaption h3{
+    font-size: 1.4em !important;
+    color: #00000082;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.primeira-figura figcaption p{
+    margin-top: -4px;
+}
+
+
+.blogFigura img {
+    margin:0 !important;
+    
+    position: relative !important;
+}
+
+/*REVIEWS*/
+
+.reviews{
+    min-height: 75vh;
+    background: linear-gradient(#092032a0, #0920326a), url('../img/bg_banner1.jpg');
+
+    
+}
+
+
+.reviews img{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.meio{
+
+    width: 80%;
+    margin:50px auto 0 auto;
+}
+
+/*FOOTER*/
+
+.footer-top .navbar-brand{
+    font-size: 1.7em;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer-top .dot{
+    color: #f7350e;
+}
+
+.footer-bottom{
+    border-top: 1px solid #ffffff6b;
+}
+.ultimo-paragrafo{
+    text-align: center;
+    color: #ffffff;
+}
+
+.ultimo-paragrafo span{
+    color: #ffffff90;
+}

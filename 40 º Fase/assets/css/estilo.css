@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*============|SUMARIO|===========
+    00-PRELIMINARES
+    000-NAV BAR
+    01-HOME
+    02-ABOUT
+    03-SERVICES
+    04-PORTFOLIO
+    05-TEAM
+    06-ABOUT
+    07-BLOG
+    08-DROPDOWN
+    09-CONTACT
+    10 -MEDIA QUERy's(RESPONSIVE)
+==================================
+*/
+
+
+/*--------------------------------------------------------------------
+                     BARRA DE MENU NAVEGACAO
+---------------------------------------------------------------------*/
+
+.navbar{
+  
+    z-index: 1;
+    padding: 10px !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+   
+}
+
+.navbar-toggler .mobile-nav-toggle{
+    font-size: 1.5em;
+}
+
+
+
+.contacto{
+    text-decoration: none !important;
+}
+
+.dropdown-menu{
+    border: none !important;
+    box-shadow: 0 2px 10px #dddddd;
+}
+
+.tela-inicial{
+    background:url('../img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mobile-nav-toggle .bi-list{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+/*--------------------------------------------------------------
+            HERO
+---------------------------------------------------------------*/
+
+
+.tela-inicial::after{
+    content: "";
+    width: 130%;
+    height: 95%;
+    position: absolute;
+    background:linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6));
+    top: 0;
+    left: 50%;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+    
+}
+
+
+

@@ -1,0 +1,401 @@
+@charset "UTF_-8";
+
+
+
+
+
+@media (min-width: 992px){
+    .navbar-nav{
+        
+        margin: auto !important;
+    }
+    .navbar{
+        background-color:#6222CC !important; 
+    }
+
+    .navbar-nav .nav-link{
+        padding: 15px;
+        margin: 6px;
+        font-size: 1.1em;
+       
+    }
+    .btn-brand{
+        background-color: #ffffff;
+        padding: 10px 32px;
+        border-radius: 2em;
+        color: #000000 !important;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-brand{
+      
+        color: #6222CC !important;
+    }
+    .primeira-div {
+        text-align: center
+    }
+}
+
+.navbar{
+    padding:10px 1% !important;
+    border-bottom: .5px solid #ffffff44;
+    
+
+}
+.navbar-nav .nav-link:hover{
+    color:#FBA504 !important;
+}
+.navbar-brand{
+    font-size: 2.5em !important;
+    font-weight: 500;
+    
+}
+
+.corpo{
+    background-color: #6222CC;
+    min-height: 100vh;
+}
+
+.corpo .btn-secondary{
+    background-color: #FBA504 !important;
+    border-color: #FBA504;
+}
+
+.corpo .btn{
+    padding: 3% 8%;
+    margin: 4px;
+    border-radius: 2em;
+    font-size: 1.01em;
+    color: #000000;
+}
+
+.corpo .btn:hover{
+    border-color: #6222CC !important;
+}
+.primeira-div{
+   margin-top: 20% !important;
+   color: #ffffff;
+}
+
+.primeira-div h1{
+    font-size: 2.5em;
+    font-weight: 700;
+
+}
+
+
+.botoes{
+    background-color: #FBA504;
+    
+    margin: auto;
+}
+
+.corpo .container{
+    margin-bottom: 200px;
+}
+.cargos{
+    background-color:#F6F4F9;
+    padding: 15px;
+    border-radius: 1em;
+    margin: 2%;
+}
+
+.cargos:hover{
+    top:-10px;
+    position: relative;
+    transition: all 3s ease-in-out;
+}
+
+.cargos h3{
+    font-size: 1.2em;
+}
+
+/*Estatisticas*/
+
+.estatisca p{
+    color: #000000bc;
+
+}
+.progress{
+    height: 3px !important;
+}
+.estatisca{
+    overflow: hidden;
+}
+.estatisca  .btn{
+    padding: 10px 34px;
+    background-color: #6222CC;
+    border-radius: 2em;
+    color: #ffffff;
+    margin-top: 20px;
+    right: 0;
+    position: relative;
+  
+}
+
+.milestone{
+    background-color: #6222CC;
+    padding: 100px 0 50px 0;
+    color: #F6F4F9;
+}
+
+
+.milestone h2{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.especificao{
+    margin-top: 100px;
+}
+
+.especificao h1{
+    margin: 20px 0;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+
+.div-espec h3{
+    margin: 25px 0;
+}
+
+.desenho{
+    background: url('../img/blob-primary.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    margin:50px auto 20px auto;
+}
+
+
+
+.div-espec figure:hover .desenho{
+    background: url('../img/blob-secondary.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    margin:20px auto 20px auto;
+
+}
+.div-espec figure{
+
+   
+    border-radius: 1em;
+}
+.div-espec figcaption{
+    margin: 30px 0;
+}
+
+.div-espec .btn{
+    padding: 0px ;
+    top:2px;
+    
+    background-color: #F6F4F9 !important;
+}
+
+
+.div-espec figure:hover .btn{
+    padding:20px 15px !important;
+    top:12px;
+    position: relative;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    background-color: #F6F4F9 !important;
+}
+
+
+
+/* EMIAL*/
+
+
+.div-email{
+    background-color: #6222CC;
+    margin: 90px 0 50px 0;
+    padding: 70px auto 20px auto !important;
+    color: #ffffff;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-email input{
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 2em;
+}
+
+.div-email h6{
+    margin-top: 40px;
+}
+.acerto{
+    padding:45px 32px !important;
+    background-color: #F6F4F9;
+    border-radius: 2em;
+
+}
+.div-espec .acerto:hover{
+    background-color: #6222CC;
+    color: #ffffff;
+    
+}
+
+/*GALERIA*/
+
+.maior figcaption{
+    background-color:#F6F4F9 !important;
+    padding: 50px 15px 10px 15px;
+    font-size: 1.1em;
+}
+
+.maior figure{
+    border-radius: 2em !important;
+    
+}
+
+
+.social-links{
+    height: 70px;
+    border-top: .5px solid #dddddd;
+    padding-top: 5px;
+}
+.social-links a{
+    padding: 20px;
+    display: inline-flex;
+    position: relative;
+    color: #FBA504;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #dddddd;
+}
+.social-links a:hover{
+    background-color: #6222CC;
+    transition: all .4s ease;
+}
+.espaco{
+    background-color: #F6F4F9;
+    border-radius: 2em;
+}
+
+.espaco img{
+    border-radius: 50%;
+    width: 90%;
+    margin: 40px 0 20px 0;
+}
+
+.espaco h3{
+    font-size: 1.2em;
+}
+
+/*FOOTER*/
+
+.footer{
+    background:url('../img/map.png') ,url('../img/map.png');
+   
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+.fundo{
+    background-color: #6222CC;
+}
+.fundo2{
+    
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+.fundo2 h3{
+    font-size: 1.3em;
+    margin-bottom: 6px;
+}
+
+.fundo2 .social-links{
+    border-top: none !important;
+    }
+
+.fundo2 .social-links a{
+    padding: 15px !important;
+    background-color: transparent;
+    
+} 
+
+.fundo2 .social-links a:hover{
+    background-color: #ffffff;
+}
+
+.fundo2 .links a{
+    display: block;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #ffffff !important;
+    
+}
+
+.fundo2 .links a:hover{
+    color: #FBA504 !important;
+    font-size: 1.1em;
+}
+
+.margem .table td{
+    border: none !important;
+}
+
+.galeria input{
+    border-radius: 5em;
+    padding-left: 16px;
+}
+
+.footer-botoom{
+    border-top: .1px solid #dddddd;
+}
+
+.footer-botoom nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    border-right: .1px solid #dddddd;
+    text-align: center;
+    padding: 2px 10px;
+}
+
+.footer-botoom a{
+    color: #ffffff;
+}
+
+.guia{
+    width: 40px;
+    height: 40px;
+    background-color: #FBA504;
+    border-radius: 50%;
+   float: right;
+   position: relative;
+}
+
+.footer-botoom nav a{
+    text-decoration: none;
+}
+
+@media (max-width: 576px){
+    .footer-botoom{
+        margin: 30px 0 0 0;
+        padding-top:30px 0;
+    }
+    .footer-botoom p{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .footer-botoom nav li{
+        padding: 3px 8px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}

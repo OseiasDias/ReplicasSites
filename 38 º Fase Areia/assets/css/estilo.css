@@ -1,0 +1,730 @@
+@charset "UTF-8";
+
+/*============|SUMARIO|===========
+    00-PRELIMINARES
+    000-NAV BAR
+    01-HOME
+    02-INTRO
+    03-SERVICES
+    04-CALL ME
+    05-PROJECTS
+    06-ABOUT
+    07-CONTACT
+    08-RESPONSIVE (MEDIA's QUERYS)
+==================================
+*/
+
+
+/*============|00-PRELIMINARES|=============*/
+
+
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--cor-white);
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: .8em;
+    background-color: var(--cor-primaria);
+}
+
+:root {
+    --cor-primaria: #113448;
+    --cor-secundaria: #14bf98;
+    --cor-white: #fff;
+}
+
+
+body {
+
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/*============|000-NAV BAR|=============*/
+.navbar {
+    padding:15px 0 !important;
+
+    z-index: 200;
+	
+   
+}
+
+.navbar .nav-link {
+    font-size: .8em;
+    font-weight: 700;
+    color: var(--cor-white) !important;
+    transition: all .3s linear;
+}
+
+.navbar .nav-link:hover {
+    color: var(--cor-secundaria) !important;
+    border-bottom: 2px solid var(--cor-secundaria) !important;
+    padding-bottom: 0;
+}
+
+.navbar .sociais-redes a {
+    padding: 12px;
+    font-size: 1px;
+    background-color: var(--cor-secundaria);
+    border-radius: 50%;
+    margin: 2px;
+    transition: all .4s ease;
+
+}
+
+.navbar .sociais-redes a:hover {
+    background-color: var(--cor-white);
+}
+
+.box-brand img {
+    width: 100px;
+    height: 30px;
+}
+
+
+
+nav.shadow{
+    background:var(--cor-primaria);
+    box-shadow:  0 0 4px rgb(14 55 54 /15%);
+}
+
+nav.shadow .navbar a{
+    color: var(--text-color);
+}
+
+nav.shadow .logo{
+    color: var(--text-color);}
+
+/*============|01-HOME|=============*/
+
+.principal {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/header-background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+	top:-60px;
+	position:relative;
+
+}
+
+.btn-brand {
+    background-color: var(--cor-secundaria);
+    box-shadow: none;
+    color: var(--cor-white);
+    font-size: .8em !important;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+}
+
+/*=============== 02-INTRO===================*/
+.introducao {
+    padding-top: 100px;
+}
+
+
+.intro {
+    background-color: var(--cor-white) !important;
+    color: #000000;
+}
+
+.primeira-div-intro {
+    padding-right: 45px !important;
+    text-align: start;
+}
+
+.primeira-div-intro h6 {
+    font-size: .8em;
+    color: var(--cor-secundaria);
+    font-weight: normal;
+}
+
+.primeira-div-intro h6+h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #000000d3;
+    margin: 10px 0;
+}
+
+.primeira-div-intro p {
+    font-size: .9em;
+}
+
+.primeira-div-intro .p2 {
+    font-style: italic;
+}
+
+.primeira-div-intro h4 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #000000a4;
+}
+
+.segunda-div-intro {
+    background-image: url('../images/intro-office.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vh;
+    border-radius: .2em;
+    transition: all .7s ease-in-out;
+
+}
+
+.segunda-div-intro:hover {
+    background-size: 110%;
+}
+
+.sub-div .bi-facebook {
+    padding: 35px;
+    background-color: var(--cor-secundaria);
+    font-size: 1px;
+}
+
+.sub-div .minha {
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.sub-div h5 {
+    margin: 60px 0 15px 0;
+    font-weight: 600;
+    color: #000000aa;
+
+}
+
+.sub-div p {
+    font-size: .9em;
+}
+
+/*=====================|03-SERVICES|===================*/
+
+.services h6 {
+    color: var(--cor-secundaria);
+    font-size: .9em;
+}
+
+.services h2 {
+    color: #000000b6;
+    margin: 20px 0 40px 0;
+}
+
+.margem {
+    border-radius: .5em;
+    box-sizing: border-box;
+}
+
+.margem figcaption {
+    padding: 25px 25px 0;
+    text-align: start;
+}
+
+.margem figcaption p,
+li {
+    font-size: .9em;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.margem figcaption h3 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #000000b4;
+    font-weight: 700;
+}
+
+.margem figcaption ul+p {
+    text-align: center;
+}
+
+.margem figcaption ul {
+    list-style: square;
+
+}
+
+.margem img {
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+.margem .btn {
+    top: 12px;
+    position: relative;
+    background-color: var(--cor-secundaria) !important;
+
+    border: none;
+    padding: 5px 10px !important;
+    font-size: .9em !important;
+}
+
+.margem .btn:hover {
+    background-color: transparent !important;
+    border: 2px solid var(--cor-secundaria) !important;
+    color: var(--cor-secundaria);
+}
+
+/*==================|04-CALL ME|====================*/
+.call-me {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 100px !important;
+}
+
+.area1 {
+    background-image: url('../images/details-1-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+.area2 {
+    background-image: url('../images/details-2-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+.linha2 {
+    top: 0;
+    position: relative;
+
+}
+
+.zona1 {
+    margin-top: 60px;
+
+}
+
+.zona1 h3 {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #000000d3;
+    margin-bottom: 50px;
+}
+
+.zona1 h4 span {
+    padding: 10px;
+    border: 2px solid #000000b4;
+    border-radius: 50%;
+    font-size: .9em;
+    font-weight: bold;
+
+}
+
+.zona1 h4 {
+    margin: 30px 0;
+    font-size: 1.1em;
+    font-family: 700;
+}
+
+
+.bar-progress {
+    background-color: var(--cor-secundaria);
+    width: 100%;
+
+}
+
+.bar-progress1 {
+    background-color: var(--cor-secundaria);
+    width: 45%;
+
+}
+
+.bar-progress2 {
+    background-color: var(--cor-secundaria);
+    width: 80%;
+
+}
+
+.progress {
+    margin: 0 0 20px 0;
+}
+
+.zona2 span {
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.zona2 h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.zona2 p {
+    font-size: .9em;
+}
+
+.zona2 ul {
+    list-style: square;
+}
+
+.zona2 li {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/*TESTANIONAL*/
+
+.testimonial img {
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    width: unset !important;
+}
+
+.testimonial figcaption {
+    text-align: center;
+}
+
+.testimonial figcaption h3 {
+    font-size: .9em !important;
+}
+
+.owl-next,
+.owl-prev {
+    font-size: 3.5em !important;
+    top: 40%;
+    position: absolute;
+    font-weight: normal !important;
+}
+
+.owl-next {
+    right: 0;
+    position: absolute;
+}
+
+.owl-prev {
+    left: 0;
+    position: absolute;
+}
+
+
+
+/*======================|06-CONTACT|==========================*/
+.contacto {
+    background-color: var(--cor-primaria);
+    color: var(--cor-white) !important;
+}
+
+.contacto ul li {
+    color: var(--cor-white) !important;
+    list-style: square;
+}
+
+.formulario {
+    color: #000000 !important;
+}
+
+.formulario input {
+    background-color: transparent;
+    border: none;
+    margin: 15px 0;
+    height: 50px !important;
+
+
+}
+
+.formulario::placeholder {
+    font-size: .9em !important;
+}
+
+.formulario input:focus {
+    background-color: #135e89;
+    color: var(--cor-white) !important;
+
+}
+
+.formulario label {
+    color: #fff;
+}
+
+.btn-call {
+    background-color: var(--cor-secundaria) !important;
+    border-radius: .2em;
+    height: 45px;
+    color: #fff;
+
+}
+
+.btn-call:hover {
+    background-color: transparent !important;
+    color: var(--cor-secundaria) !important;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.arranjo h6 {
+    color: var(--cor-secundaria);
+    font-size: .8em;
+
+}
+
+.padding {
+    padding: 30px 40px !important;
+}
+
+.arranjo h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+.arranjo p {
+    font-size: .9em;
+    color: #ffffffd4;
+    text-align: justify;
+}
+
+/*=====================|07|====================*/
+
+.box-foto h5 {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+    opacity: 0;
+    transition: all .6s ease-in-out;
+    text-align: center !important;
+    padding-top: 35% !important;
+    color: var(--cor-white);
+}
+
+.foto-box1 {
+    background: url('../images/project-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box2 {
+    background: url('../images/project-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box3 {
+    background: url('../images/project-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box4 {
+    background: url('../images/project-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box5 {
+    background: url('../images/project-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box6 {
+    background: url('../images/project-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box7 {
+    background: url('../images/project-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 0 !important;
+}
+
+.foto-box8 {
+    background: url('../images/project-8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 !important;
+    min-height: 250px;
+}
+
+.foto-box h5:hover {
+    opacity: 1;
+    transition: all .6s ease-in;
+}
+
+.foto-box:hover {
+    background-size: 125%;
+}
+
+.sociais-redes-fundo a{
+    background-color: var(--cor-secundaria);
+    padding: 12px;
+    font-size: 1px;
+    border-radius: 50%;
+    border: .5em solid var(--cor-secundaria) !important;
+    margin:15px 0;
+}
+.sociais-redes-fundo a:hover{
+    background-color: #fff;
+}
+
+.carrega figcaption{
+    text-align: center !important;
+}
+.carrega figcaption p{
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.carrega img:hover{
+    transform:scale(1.1);
+    transition: all .2s ease-in;
+}
+
+.listita{
+    list-style: square;
+    font-size: 1em;
+}
+.lei h6{
+    color: var(--cor-secundaria);
+    font-size: .9em;
+}
+.oitava .sociais-redes-fundo a{
+    padding: 20px;
+    margin: 2.3%;
+}
+.oitava1 .h6{
+    color: var(--cor-secundaria) !important;
+    font-size: .9em !important;
+}
+
+.oitava1 .h2{
+    font-weight: 700 !important;
+}
+.lei h2{
+    color: #000000c4;
+    font-weight: 700;
+}
+
+.fo1 h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor-secundaria) !important;
+}
+
+[id="idText" ]{
+    width: 100% !important;
+    outline:none !important;
+    border: none;
+}
+
+.mm{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.bb{
+color: #000000 !important;
+}
+/*FOOTER*/
+
+.lk h5{
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.foot{
+    background-color: var(--cor-primaria);
+    padding: 30px 0;
+}
+
+.ss{
+    font-size: .9em;
+}
+
+.lk .col-lg-4 li{
+    list-style: none;
+}
+.lk .col-lg-4 li a{
+    color: #fff !important;
+}
+
+
+/*============|08-RESPONSIVE|=============*/
+
+@media (max-width:768px) {
+    .navbar .sociais-redes {
+        display: none !important;
+    }
+
+    .navbar .nav-link:hover {
+
+        border-bottom: none !important;
+
+    }
+
+    .zona1 h4 span {
+        padding: 8px;
+
+        font-size: 1em;
+        border: none !important;
+        background-color: transparent !important;
+        margin: 40px 0 !important;
+
+    }
+
+    .zona1 h4 {
+        margin: 30px 0;
+        font-size: 1em !important;
+    }
+
+
+    .zona2 li {
+        display: inline-block;
+        margin-top: 50px;
+        font-size: 1em;
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+
+    .foto-box {
+        min-height: 200px !important;
+    }
+
+}
+
+
+@media (max-width:992px) {
+    .zona2 {
+        margin-bottom: 80px;
+    }
+
+}
